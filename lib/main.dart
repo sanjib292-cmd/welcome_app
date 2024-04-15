@@ -32,7 +32,7 @@ class MyHomePage extends StatelessWidget {
       body: Container(
         decoration: BoxDecoration(
           gradient: LinearGradient(
-            colors: [Colors.purple, Color(0xFF1976D2)], // Gradient colors
+            colors: [Colors.purple, Color(0xFF1976D2)],
             begin: Alignment.topCenter,
             end: Alignment.bottomCenter,
           ),
@@ -45,7 +45,7 @@ class MyHomePage extends StatelessWidget {
                 style: TextStyle(
                   fontSize: 38,
                   fontWeight: FontWeight.w600,
-                  color: Colors.white, // Set font size and color
+                  color: Colors.white,
                 ),
               );
             },
